@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GenesysDBServico" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="FINALIZAR_SERVICO">
+    <Key>
+      <PropertyRef Name="IDFINALIZACAO" />
+    </Key>
+    <Property Name="IDFINALIZACAO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDSERVICO" Type="Int32" Nullable="false" />
+    <Property Name="RELATORIO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DTENCERRAMENTO" Type="DateTime" Precision="0" />
+    <Property Name="IDEQUIPE" Type="Int32" Nullable="false" />
+    <Property Name="FORMAPAGAMENTO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PAGO" Type="Boolean" />
+    <NavigationProperty Name="SERVICO" Relationship="Self.FK__FINALIZAR__IDSER__7F2BE32F" FromRole="FINALIZAR_SERVICO" ToRole="SERVICO" />
+  </EntityType>
+  <EntityType Name="SERVICO">
+    <Key>
+      <PropertyRef Name="IDSERVICO" />
+    </Key>
+    <Property Name="IDSERVICO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DTABERTURA" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="HORARIO" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="DTVENCIMENTO" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDFINALIDADE" Type="Int32" Nullable="false" />
+    <Property Name="IDCATEGORIA" Type="Int32" Nullable="false" />
+    <Property Name="ELEMENTO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="URGENCIA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IMPACTO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROBLEMA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="FINALIZAR_SERVICO" Relationship="Self.FK__FINALIZAR__IDSER__7F2BE32F" FromRole="SERVICO" ToRole="FINALIZAR_SERVICO" />
+  </EntityType>
+  <Association Name="FK__FINALIZAR__IDSER__7F2BE32F">
+    <End Role="SERVICO" Type="Self.SERVICO" Multiplicity="1" />
+    <End Role="FINALIZAR_SERVICO" Type="Self.FINALIZAR_SERVICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SERVICO">
+        <PropertyRef Name="IDSERVICO" />
+      </Principal>
+      <Dependent Role="FINALIZAR_SERVICO">
+        <PropertyRef Name="IDSERVICO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GenesysDBChart" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FINALIZAR_SERVICO" EntityType="Self.FINALIZAR_SERVICO" />
+    <EntitySet Name="SERVICO" EntityType="Self.SERVICO" />
+    <AssociationSet Name="FK__FINALIZAR__IDSER__7F2BE32F" Association="Self.FK__FINALIZAR__IDSER__7F2BE32F">
+      <End Role="SERVICO" EntitySet="SERVICO" />
+      <End Role="FINALIZAR_SERVICO" EntitySet="FINALIZAR_SERVICO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

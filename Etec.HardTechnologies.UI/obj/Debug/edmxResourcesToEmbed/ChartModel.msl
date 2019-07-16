@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GenesysDBServicoStoreContainer" CdmEntityContainer="GenesysDBChart">
+    <EntitySetMapping Name="FINALIZAR_SERVICO">
+      <EntityTypeMapping TypeName="GenesysDBServico.FINALIZAR_SERVICO">
+        <MappingFragment StoreEntitySet="FINALIZAR_SERVICO">
+          <ScalarProperty Name="IDFINALIZACAO" ColumnName="IDFINALIZACAO" />
+          <ScalarProperty Name="IDSERVICO" ColumnName="IDSERVICO" />
+          <ScalarProperty Name="RELATORIO" ColumnName="RELATORIO" />
+          <ScalarProperty Name="DTENCERRAMENTO" ColumnName="DTENCERRAMENTO" />
+          <ScalarProperty Name="IDEQUIPE" ColumnName="IDEQUIPE" />
+          <ScalarProperty Name="FORMAPAGAMENTO" ColumnName="FORMAPAGAMENTO" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="PAGO" ColumnName="PAGO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICO">
+      <EntityTypeMapping TypeName="GenesysDBServico.SERVICO">
+        <MappingFragment StoreEntitySet="SERVICO">
+          <ScalarProperty Name="IDSERVICO" ColumnName="IDSERVICO" />
+          <ScalarProperty Name="DTABERTURA" ColumnName="DTABERTURA" />
+          <ScalarProperty Name="HORARIO" ColumnName="HORARIO" />
+          <ScalarProperty Name="DTVENCIMENTO" ColumnName="DTVENCIMENTO" />
+          <ScalarProperty Name="IDFINALIDADE" ColumnName="IDFINALIDADE" />
+          <ScalarProperty Name="IDCATEGORIA" ColumnName="IDCATEGORIA" />
+          <ScalarProperty Name="ELEMENTO" ColumnName="ELEMENTO" />
+          <ScalarProperty Name="URGENCIA" ColumnName="URGENCIA" />
+          <ScalarProperty Name="IMPACTO" ColumnName="IMPACTO" />
+          <ScalarProperty Name="PROBLEMA" ColumnName="PROBLEMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

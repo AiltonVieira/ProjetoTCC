@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GenesysDBUsuarios" targetNamespace="http://tempuri.org/GenesysDBUsuarios.xsd" xmlns:mstns="http://tempuri.org/GenesysDBUsuarios.xsd" xmlns="http://tempuri.org/GenesysDBUsuarios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="GenesysBDConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="GenesysBDConnection (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Etec.HardTechnologies.UI.Properties.Settings.GlobalReference.Default.GenesysBDConnection" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LOGIN_USUARIOTableAdapter" GeneratorDataComponentClassName="LOGIN_USUARIOTableAdapter" Name="LOGIN_USUARIO" UserDataComponentName="LOGIN_USUARIOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GenesysBDConnection (Settings)" DbObjectName="GenesysDB.dbo.LOGIN_USUARIO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT COUNT(IDLOGIN) AS [Qtd. de Usuários], Nivel FROM LOGIN_USUARIO
+GROUP BY NIVEL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Qtd. de Usuários" DataSetColumn="Qtd_ de Usuários" />
+              <Mapping SourceColumn="Nivel" DataSetColumn="Nivel" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GenesysDBUsuarios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="GenesysDBUsuarios" msprop:Generator_UserDSName="GenesysDBUsuarios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LOGIN_USUARIO" msprop:Generator_TableClassName="LOGIN_USUARIODataTable" msprop:Generator_TableVarName="tableLOGIN_USUARIO" msprop:Generator_RowChangedName="LOGIN_USUARIORowChanged" msprop:Generator_TablePropName="LOGIN_USUARIO" msprop:Generator_RowDeletingName="LOGIN_USUARIORowDeleting" msprop:Generator_RowChangingName="LOGIN_USUARIORowChanging" msprop:Generator_RowEvHandlerName="LOGIN_USUARIORowChangeEventHandler" msprop:Generator_RowDeletedName="LOGIN_USUARIORowDeleted" msprop:Generator_RowClassName="LOGIN_USUARIORow" msprop:Generator_UserTableName="LOGIN_USUARIO" msprop:Generator_RowEvArgName="LOGIN_USUARIORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Qtd__x0020_de_x0020_Usuários" msdata:ReadOnly="true" msdata:Caption="Qtd. de Usuários" msprop:Generator_ColumnVarNameInTable="columnQtd__de_Usuários" msprop:Generator_ColumnPropNameInRow="Qtd__de_Usuários" msprop:Generator_ColumnPropNameInTable="Qtd__de_UsuáriosColumn" msprop:Generator_UserColumnName="Qtd_ de Usuários" type="xs:int" minOccurs="0" />
+              <xs:element name="Nivel" msprop:Generator_ColumnVarNameInTable="columnNivel" msprop:Generator_ColumnPropNameInRow="Nivel" msprop:Generator_ColumnPropNameInTable="NivelColumn" msprop:Generator_UserColumnName="Nivel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

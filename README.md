@@ -1,2 +1,1 @@
-# ProjetoTCC
-Trabalho de Conclusão de Curso (Técnico)
+# My project's README

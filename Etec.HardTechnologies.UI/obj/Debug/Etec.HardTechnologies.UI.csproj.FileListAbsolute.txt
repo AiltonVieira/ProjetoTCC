@@ -1,0 +1,138 @@
+c:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe.config
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csprojResolveAssemblyReference.cache
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmLogin.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmMenuPrincipal.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSobre.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSplash.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.Properties.Resources.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csproj.GenerateResource.Cache
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.exe
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmServico.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmCliente.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmEquipamento.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFuncionario.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmEstoque.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFornecedor.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmContato.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmEquipe.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFinalizarServico.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRecibo.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\RdlCompile.cache
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\RdlCompile.compiled
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmPagamento.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRelatorio.resources
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.xml
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe.config
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.exe
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.pdb
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.pdb
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.pdb
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.xml
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csprojResolveAssemblyReference.cache
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmCliente.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmContato.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmEquipamento.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFinalizarServico.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFornecedor.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFuncionario.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmLogin.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmMenuPrincipal.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRecibo.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRelatorio.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmServico.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSobre.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSplash.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.Properties.Resources.resources
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csproj.GenerateResource.Cache
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\RdlCompile.cache
+C:\Projetos\projetotcc\Etec.HardTechnologies.UI\obj\Debug\RdlCompile.compiled
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmAgenda.resources
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmCadastroUsuario.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe.config
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.exe
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.UI.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.BO.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.xml
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csprojResolveAssemblyReference.cache
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmAgenda.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmCadastroUsuario.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmCliente.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmContato.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmEquipamento.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFinalizarServico.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFornecedor.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmFuncionario.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmLogin.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmMenuPrincipal.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRecibo.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmRelatorio.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmServico.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSobre.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.frmSplash.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.Properties.Resources.resources
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csproj.GenerateResource.Cache
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.csproj.CoreCompileInputs.cache
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.exe
+C:\Users\edson\projetotcc\Etec.HardTechnologies.UI\obj\Debug\Etec.HardTechnologies.UI.pdb

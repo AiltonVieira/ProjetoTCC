@@ -1,0 +1,22 @@
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.csprojResolveAssemblyReference.cache
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.pdb
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\users\ailto\onedrive\documentos\visual studio 2015\Projects\Etec.HardTechnologies\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.csprojResolveAssemblyReference.cache
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.dll
+C:\Projetos\ProjetoTCC\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.DATA.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\bin\Debug\Etec.HardTechnologies.CLASS.pdb
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.csprojResolveAssemblyReference.cache
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.csproj.CoreCompileInputs.cache
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.dll
+C:\Users\edson\projetotcc\Etec.HardTechnologies.DATA\obj\Debug\Etec.HardTechnologies.DATA.pdb

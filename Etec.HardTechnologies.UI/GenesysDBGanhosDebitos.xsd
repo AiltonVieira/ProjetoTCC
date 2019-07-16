@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GenesysDBGanhosDebitos" targetNamespace="http://tempuri.org/GenesysDBGanhosDebitos.xsd" xmlns:mstns="http://tempuri.org/GenesysDBGanhosDebitos.xsd" xmlns="http://tempuri.org/GenesysDBGanhosDebitos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="GenesysBDConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="GenesysBDConnection (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Etec.HardTechnologies.UI.Properties.Settings.GlobalReference.Default.GenesysBDConnection" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EXTRATOTableAdapter" GeneratorDataComponentClassName="EXTRATOTableAdapter" Name="EXTRATO" UserDataComponentName="EXTRATOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GenesysBDConnection (Settings)" DbObjectName="GenesysDB.dbo.EXTRATO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SERVICO, RECEITA, DÉBITO, LUCRO FROM dbo.EXTRATO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SERVICO" DataSetColumn="SERVICO" />
+              <Mapping SourceColumn="RECEITA" DataSetColumn="RECEITA" />
+              <Mapping SourceColumn="DÉBITO" DataSetColumn="DÉBITO" />
+              <Mapping SourceColumn="LUCRO" DataSetColumn="LUCRO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GenesysDBGanhosDebitos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="GenesysDBGanhosDebitos" msprop:Generator_UserDSName="GenesysDBGanhosDebitos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EXTRATO" msprop:Generator_TableClassName="EXTRATODataTable" msprop:Generator_TableVarName="tableEXTRATO" msprop:Generator_TablePropName="EXTRATO" msprop:Generator_RowDeletingName="EXTRATORowDeleting" msprop:Generator_RowChangingName="EXTRATORowChanging" msprop:Generator_RowEvHandlerName="EXTRATORowChangeEventHandler" msprop:Generator_RowDeletedName="EXTRATORowDeleted" msprop:Generator_UserTableName="EXTRATO" msprop:Generator_RowChangedName="EXTRATORowChanged" msprop:Generator_RowEvArgName="EXTRATORowChangeEvent" msprop:Generator_RowClassName="EXTRATORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SERVICO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSERVICO" msprop:Generator_ColumnPropNameInRow="SERVICO" msprop:Generator_ColumnPropNameInTable="SERVICOColumn" msprop:Generator_UserColumnName="SERVICO" type="xs:int" />
+              <xs:element name="RECEITA" msprop:Generator_ColumnVarNameInTable="columnRECEITA" msprop:Generator_ColumnPropNameInRow="RECEITA" msprop:Generator_ColumnPropNameInTable="RECEITAColumn" msprop:Generator_UserColumnName="RECEITA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DÉBITO" msprop:Generator_ColumnVarNameInTable="columnDÉBITO" msprop:Generator_ColumnPropNameInRow="DÉBITO" msprop:Generator_ColumnPropNameInTable="DÉBITOColumn" msprop:Generator_UserColumnName="DÉBITO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LUCRO" msprop:Generator_ColumnVarNameInTable="columnLUCRO" msprop:Generator_ColumnPropNameInRow="LUCRO" msprop:Generator_ColumnPropNameInTable="LUCROColumn" msprop:Generator_UserColumnName="LUCRO" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EXTRATO" />
+      <xs:field xpath="mstns:SERVICO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

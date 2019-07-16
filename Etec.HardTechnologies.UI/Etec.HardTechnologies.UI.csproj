@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2251A094-537D-498A-948D-DDA3D13DD434}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Etec.HardTechnologies.UI</RootNamespace>
+    <AssemblyName>Etec.HardTechnologies.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\Projetos\etec.tcc\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\Projetos\etec.tcc\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChartModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChartModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChartModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChartModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChartModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChartModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="FINALIZAR_SERVICO.cs">
+      <DependentUpon>ChartModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenda.Designer.cs">
+      <DependentUpon>frmAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.Designer.cs">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContato.Designer.cs">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipamento.Designer.cs">
+      <DependentUpon>frmEquipamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalizarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalizarServico.Designer.cs">
+      <DependentUpon>frmFinalizarServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFornecedor.Designer.cs">
+      <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionario.Designer.cs">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecibo.Designer.cs">
+      <DependentUpon>frmRecibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorio.Designer.cs">
+      <DependentUpon>frmRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServico.Designer.cs">
+      <DependentUpon>frmServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.cs">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBAbertosEncerrados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBAbertosEncerrados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBCargo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBCargo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBCliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBExtrato.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBExtrato.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBFinalizacaoServico.cs">
+      <DependentUpon>GenesysDBFinalizacaoServico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBFinalizacaoServico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBFinalizacaoServico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBFinalizarServico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBFinalizarServico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBFornecedor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBFornecedor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBFuncionario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBFuncionario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBGanhosDebitos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBGanhosDebitos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBGanhosServico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBGanhosServico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBMarca.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBMarca.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBRecibo.cs">
+      <DependentUpon>GenesysDBRecibo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBRecibo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBRecibo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBServico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBServico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBServicoFinalidade.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBServicoFinalidade.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBUsuarios.cs">
+      <DependentUpon>GenesysDBUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GenesysDBUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesysDBUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SERVICO.cs">
+      <DependentUpon>ChartModel.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAgenda.resx">
+      <DependentUpon>frmAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroUsuario.resx">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContato.resx">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipamento.resx">
+      <DependentUpon>frmEquipamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalizarServico.resx">
+      <DependentUpon>frmFinalizarServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFornecedor.resx">
+      <DependentUpon>frmFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuncionario.resx">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecibo.resx">
+      <DependentUpon>frmRecibo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorio.resx">
+      <DependentUpon>frmRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServico.resx">
+      <DependentUpon>frmServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rpvRecibo.rdlc" />
+    <EmbeddedResource Include="rpvImpressao.rdlc" />
+    <EntityDeploy Include="ChartModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ChartModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ChartModel.edmx.diagram">
+      <DependentUpon>ChartModel.edmx</DependentUpon>
+    </None>
+    <None Include="GenesysDBAbertosEncerrados.xsc">
+      <DependentUpon>GenesysDBAbertosEncerrados.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBAbertosEncerrados.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBAbertosEncerrados.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBAbertosEncerrados.xss">
+      <DependentUpon>GenesysDBAbertosEncerrados.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBCargo.xsc">
+      <DependentUpon>GenesysDBCargo.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBCargo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBCargo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBCargo.xss">
+      <DependentUpon>GenesysDBCargo.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBCliente.xsc">
+      <DependentUpon>GenesysDBCliente.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBCliente.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBCliente.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBCliente.xss">
+      <DependentUpon>GenesysDBCliente.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBExtrato.xsc">
+      <DependentUpon>GenesysDBExtrato.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBExtrato.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBExtrato.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBExtrato.xss">
+      <DependentUpon>GenesysDBExtrato.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFinalizacaoServico.xsc">
+      <DependentUpon>GenesysDBFinalizacaoServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFinalizacaoServico.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBFinalizacaoServico.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBFinalizacaoServico.xss">
+      <DependentUpon>GenesysDBFinalizacaoServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFinalizarServico.xsc">
+      <DependentUpon>GenesysDBFinalizarServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFinalizarServico.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBFinalizarServico.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBFinalizarServico.xss">
+      <DependentUpon>GenesysDBFinalizarServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFornecedor.xsc">
+      <DependentUpon>GenesysDBFornecedor.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFornecedor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBFornecedor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBFornecedor.xss">
+      <DependentUpon>GenesysDBFornecedor.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFuncionario.xsc">
+      <DependentUpon>GenesysDBFuncionario.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBFuncionario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBFuncionario.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBFuncionario.xss">
+      <DependentUpon>GenesysDBFuncionario.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBGanhosDebitos.xsc">
+      <DependentUpon>GenesysDBGanhosDebitos.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBGanhosDebitos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBGanhosDebitos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBGanhosDebitos.xss">
+      <DependentUpon>GenesysDBGanhosDebitos.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBGanhosServico.xsc">
+      <DependentUpon>GenesysDBGanhosServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBGanhosServico.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBGanhosServico.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBGanhosServico.xss">
+      <DependentUpon>GenesysDBGanhosServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBMarca.xsc">
+      <DependentUpon>GenesysDBMarca.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBMarca.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBMarca.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBMarca.xss">
+      <DependentUpon>GenesysDBMarca.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBRecibo.xsc">
+      <DependentUpon>GenesysDBRecibo.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBRecibo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBRecibo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBRecibo.xss">
+      <DependentUpon>GenesysDBRecibo.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBServico.xsc">
+      <DependentUpon>GenesysDBServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBServico.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBServico.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBServico.xss">
+      <DependentUpon>GenesysDBServico.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBServicoFinalidade.xsc">
+      <DependentUpon>GenesysDBServicoFinalidade.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBServicoFinalidade.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBServicoFinalidade.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBServicoFinalidade.xss">
+      <DependentUpon>GenesysDBServicoFinalidade.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBUsuarios.xsc">
+      <DependentUpon>GenesysDBUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="GenesysDBUsuarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesysDBUsuarios.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GenesysDBUsuarios.xss">
+      <DependentUpon>GenesysDBUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Etec.HardTechnologies.BO\Etec.HardTechnologies.BO.csproj">
+      <Project>{138fe3b3-a104-4465-9217-e699b682a9fb}</Project>
+      <Name>Etec.HardTechnologies.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Etec.HardTechnologies.CLASS\Etec.HardTechnologies.CLASS.csproj">
+      <Project>{b32cbcc8-fe3e-4a31-9ecc-07d8705d4667}</Project>
+      <Name>Etec.HardTechnologies.CLASS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChartModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ChartModel.edmx</DependentUpon>
+      <LastGenOutput>ChartModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ChartModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ChartModel.edmx</DependentUpon>
+      <LastGenOutput>ChartModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
